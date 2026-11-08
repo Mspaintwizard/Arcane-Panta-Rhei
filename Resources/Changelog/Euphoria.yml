@@ -6941,3 +6941,11 @@ Entries:
         produced by mammary glands in place of regular milk.
   id: 863
   time: '2026-11-08T02:50:06.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Add
+      message: >-
+        Added "Foot In The Grave" trait which reduces your Critical and Dead
+        thresholds by 90%. Be careful that you don't ass-slap somebody to death.
+  id: 864
+  time: '2026-11-08T09:33:22.0000000+00:00'
