@@ -99492,11 +99492,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#0055CCFF'
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 96
   - uid: 13914
     components:
     - type: Transform
@@ -101017,11 +101012,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#990000FF'
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 96
   - uid: 14064
     components:
     - type: Transform
