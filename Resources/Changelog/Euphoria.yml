@@ -7000,3 +7000,23 @@ Entries:
       message: added bubble pipes
   id: 868
   time: '2026-11-09T03:43:35.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: >-
+        Added twelve folders to the PTech to enable roundstart complex HoP
+        filing systems.
+  id: 869
+  time: '2026-11-09T13:22:58.0000000+00:00'
+- author: deltaSpawn0040
+  changes:
+    - type: Fix
+      message: Log walls can be properly deconstructed.
+  id: 870
+  time: '2026-11-09T13:23:34.0000000+00:00'
+- author: M3739
+  changes:
+    - type: Tweak
+      message: New logo and icon. Fresh coat of paint!
+  id: 871
+  time: '2026-11-09T13:28:30.0000000+00:00'

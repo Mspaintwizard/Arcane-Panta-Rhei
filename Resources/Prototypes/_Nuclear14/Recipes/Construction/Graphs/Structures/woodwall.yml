@@ -1,4 +1,4 @@
-﻿- type: constructionGraph
+- type: constructionGraph
   id: N14WoodWall
   start: start
   graph:
@@ -58,6 +58,7 @@
             - !type:GivePrototype
               prototype: MaterialWoodPlank1
               amount: 1
+            - !type:DeleteEntity {} # Euphoria - Fix log walls not disappearing after being dismantled
           steps:
             - tool: Prying
               doAfter: 10

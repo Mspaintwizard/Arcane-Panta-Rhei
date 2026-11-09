@@ -56,6 +56,12 @@
     SecurityPDA: 1
     LawyerPDA: 2
     ProsecutorPDA: 2
+    BoxFolderBlue: 2
+    BoxFolderRed: 2
+    BoxFolderYellow: 2
+    BoxFolderBlack: 2
+    BoxFolderGrey: 2
+    BoxFolderGreen: 2
     # Emotional Support Collar Pdas
     ClothingNeckCollarBlackPetId: 2
     ClothingNeckCollarBluePetId: 2
