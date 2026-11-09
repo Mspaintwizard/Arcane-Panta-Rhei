@@ -6949,3 +6949,54 @@ Entries:
         thresholds by 90%. Be careful that you don't ass-slap somebody to death.
   id: 864
   time: '2026-11-08T09:33:22.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: Lots of markings now have proper names!
+  id: 865
+  time: '2026-11-09T03:24:16.0000000+00:00'
+- author: IcarusianFolly
+  changes:
+    - type: Add
+      message: >-
+        Added longer skirts for Engineering, Epistemics, Cargo, Security,
+        Medical, and the Captain.
+  id: 866
+  time: '2026-11-09T03:32:30.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: added the patty melt
+  id: 867
+  time: '2026-11-09T03:33:48.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: 'added a bunch more trinkets, too many to list '
+    - type: Add
+      message: added a few things to the shadycigs & youtool vending machines
+    - type: Add
+      message: added a new cigarette to the soaked smokes pool
+    - type: Tweak
+      message: made newton's cradles noisy again
+    - type: Tweak
+      message: increased the amount of trinkets you can take by 2, up to 7
+    - type: Add
+      message: added inactive and spent bullet cartridges
+    - type: Add
+      message: >-
+        added 4 new kinds of smokes, the greyman's specials, the rollie packet,
+        the medicinal rollie packet, and the comedically large blunt (the
+        comedically large blunt can be crafted by botanists)
+    - type: Add
+      message: added the ring on a string
+    - type: Add
+      message: >-
+        Mr captain, a second shadekin plushie has hit the station (alt sprite
+        that is much cuter)
+    - type: Add
+      message: added Mike sports drink bottles (not a typo)
+    - type: Add
+      message: added bubble pipes
+  id: 868
+  time: '2026-11-09T03:43:35.0000000+00:00'
