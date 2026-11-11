@@ -7052,3 +7052,17 @@ Entries:
       message: 'added high heel shoes '
   id: 873
   time: '2026-11-10T11:12:12.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: given shadekin emote sounds a new lick of paint
+  id: 874
+  time: '2026-11-11T10:00:27.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: >-
+        made all organs (people, monkeys, kobolds, ect.) juiceable into
+        nutriment and uncooked animal proteins
+  id: 875
+  time: '2026-11-11T16:14:30.0000000+00:00'

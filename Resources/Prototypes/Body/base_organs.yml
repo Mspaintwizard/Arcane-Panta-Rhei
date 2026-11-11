@@ -31,6 +31,13 @@
   - type: EmitSoundOnLand
     sound:
       collection: OrganInteraction
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: UncookedAnimalProteins
+        Quantity: 5
   # End Euphoria additions
 
 - type: entity
