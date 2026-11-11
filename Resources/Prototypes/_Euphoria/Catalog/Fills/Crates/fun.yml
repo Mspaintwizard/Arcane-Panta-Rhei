@@ -17,7 +17,7 @@
   id: CrateFunClothingHeels
   parent: CratePlastic
   name: heels crate
-  description: Nine extra pairs of heels for fashion-conscious crew and visitors.
+  description: Eleven extra pairs of heels for fashion-conscious crew and visitors.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -34,6 +34,8 @@
         - id: ClothingShoesHeelsBallet
           amount: 2
         - id: ClothingShoesHighheelBoots
+          amount: 2
+        - id: ClothingShoesHighheelShoes
           amount: 2
 
 - type: entity

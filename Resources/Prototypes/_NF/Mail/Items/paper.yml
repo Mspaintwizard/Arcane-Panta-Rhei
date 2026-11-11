@@ -482,3 +482,56 @@
 
 
                               [head=3][italic]Internal Bureau of Propaganda[/italic][/head]
+
+# Euphoria additions
+
+- type: entity
+  id: PaperMailRecipeCardHotdogHalv
+  categories: [ HideSpawnMenu ]
+  suffix: "hotdog halv"
+  name: secret wiener friends recipe
+  parent: Paper
+  components:
+  - type: Paper
+    content: |2
+
+      [head=1]The Secret Wiener Friends[/head]
+
+      Greetings valued friend, enjoy your regular wiener delivery!
+      Challenge yourself with today's secret hot dog!
+      The recipes that DonkCo. DON'T want you to know about!
+
+      [head=2]The Halv Special[/head]
+
+      1 - Cooked Sausage
+      1 - Cooked Shrimp
+      1 - Potato
+
+      Served in a hotdog bun.
+
+      [italic]Be sure to share your wieners with your friends too![/italic]
+
+- type: entity
+  id: PaperMailRecipeCardHotdogPuka
+  categories: [ HideSpawnMenu ]
+  suffix: "hotdog puka"
+  name: secret wiener friends recipe
+  parent: Paper
+  components:
+  - type: Paper
+    content: |2
+
+      [head=1]The Secret Wiener Friends[/head]
+
+      Greetings valued friend, enjoy your regular wiener delivery!
+      Challenge yourself with today's secret hot dog!
+      The recipes that DonkCo. DON'T want you to know about!
+
+      [head=2]The Puka Dog[/head]
+
+      1 - Cooked Sausage
+      2 - Pineapple Slices
+
+      Served in a hotdog bun.
+
+      [italic]Be sure to share your wieners with your friends too![/italic]

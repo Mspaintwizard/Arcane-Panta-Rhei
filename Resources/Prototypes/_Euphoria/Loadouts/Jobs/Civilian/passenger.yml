@@ -48,6 +48,12 @@
     shoes: ClothingShoesHeelsBallet
   groupBy: "heels"
 
+- type: loadout
+  id: ClothingShoesHighheelShoes
+  equipment:
+    shoes: ClothingShoesHighheelShoes
+  groupBy: "heels"
+
 # face/gasmasks
 - type: loadout
   id: ClothingMaskFox

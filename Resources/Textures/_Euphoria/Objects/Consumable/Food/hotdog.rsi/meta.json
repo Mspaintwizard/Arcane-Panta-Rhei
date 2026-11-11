@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-4.0",
-    "copyright": "bacon-supreme, condog, roddog, suishi, urist-mc-hotdog, and fih by The Mage of Microsoft Paint, rest by LeCorps",
+    "copyright": "bacon-supreme, condog, roddog, suishi, urist-mc-hotdog, and fih by The Mage of Microsoft Paint; halvspecial and pukadog by Paper Shadow; rest by LeCorps",
     "size": {
         "x": 32,
         "y": 32
@@ -35,6 +35,9 @@
             "name": "half-smoke"
         },
         {
+            "name": "halvspecial"
+        },
+        {
             "name": "hotdog-bun"
         },
         {
@@ -45,6 +48,9 @@
         },
         {
             "name": "polish-boy"
+        },
+        {
+            "name": "pukadog"
         },
         {
             "name": "roddog"

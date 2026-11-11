@@ -202,6 +202,131 @@
     OrganAnimalHeart: 1
     FoodMeatRotten: 1
 
+# pizza
+- type: microwaveMealRecipe
+  id: RecipeSassysagePizza
+  name: sassysage pizza recipe
+  result: FoodPizzaSassysage
+  time: 30
+  group: Pizza
+  solids:
+    FoodDoughFlat: 1
+    FoodSausageRaw: 3
+    FoodCheeseSlice: 1
+    FoodTomato: 1
+
+# sausage / animal protein / fat meals
+- type: microwaveMealRecipe
+  id: RecipePigblanket
+  name: pig in a blanket recipe
+  result: FoodMealPigblanket
+  time: 10
+  group: Savory
+  reagents:
+    Flour: 5
+  solids:
+    FoodSausageRaw: 1
+    FoodButterSlice: 1
+
+- type: microwaveMealRecipe
+  id: RecipeBangersMash
+  name: bangers and mash recipe
+  result: FoodBangersMash
+  time: 15
+  group: Savory
+  reagents:
+    Gravy: 5
+  solids:
+    FoodSausageRaw: 1
+    FoodPotato: 1
+    FoodPeaPod: 1
+
+- type: microwaveMealRecipe
+  id: RecipeBiscuitsGravy
+  name: biscuits and gravy recipe
+  result: FoodBiscuitsGravy
+  time: 10
+  group: Savory
+  reagents:
+    Gravy: 5
+  solids:
+    FoodDoughSlice: 1
+
+- type: microwaveMealRecipe # Could be turned into a Deep Fry recipe once that is in a usable state?
+  id: RecipeCorndog
+  name: corndog recipe
+  result: FoodCorndog
+  time: 10
+  group: Savory
+  reagents:
+    Cornmeal: 10
+  solids:
+    FoodSausageRaw: 1
+
+- type: microwaveMealRecipe
+  id: RecipePoutine
+  name: poutine recipe
+  result: FoodPoutine
+  time: 10
+  group: Savory
+  reagents:
+    Gravy: 5
+  solids:
+    FoodPotato: 1
+    FoodCheeseCurds: 1
+
+
+- type: microwaveMealRecipe
+  id: RecipeScotchEgg
+  name: scotch egg recipe
+  result: FoodScotchEgg
+  time: 10
+  group: Savory
+  reagents:
+    UncookedAnimalProteins: 3
+    Flour: 5
+  solids:
+    FoodEgg: 1
+
+- type: microwaveMealRecipe
+  id: RecipeTakosan
+  name: tako-san wiener recipe
+  result: FoodTakosan
+  time: 10
+  group: Savory
+  reagents:
+    Rice: 5
+  solids:
+    FoodSausageRaw: 1
+
+- type: microwaveMealRecipe
+  id: RecipeYorkshirePudding
+  name: yorkshire pudding recipe
+  result:
+  - FoodYorkshirePudding
+  - FoodYorkshirePudding
+  - FoodYorkshirePudding
+  time: 10
+  group: Savory
+  reagents:
+    Flour: 10
+    Egg: 6
+    Fat: 9
+
+- type: microwaveMealRecipe
+  id: RecipeToadInTheHole
+  name: toad in the hole recipe
+  result: FoodToadInTheHole
+  time: 20
+  group: Savory
+  reagents:
+    Flour: 15
+    Egg: 6
+    Fat: 9
+    Gravy: 5
+  solids:
+    FoodSausageRaw: 2
+    
 - type: microwaveMealRecipe
   id: RecipePattyMelt
   name: patty melt recipe

@@ -42,3 +42,31 @@
   physicalDesc: reagent-physical-desc-sticky
   flavor: sweet
   color: "#280137"
+
+- type: reagent
+  id: Gravy
+  name: reagent-name-gravy
+  parent: BaseJuice
+  desc: reagent-desc-gravy
+  physicalDesc: reagent-physical-desc-thick
+  flavor: savory
+  color: "#672108"
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateHunger
+        factor: 2
+
+- type: reagent
+  id: Roux
+  name: reagent-name-roux
+  parent: BaseJuice
+  desc: reagent-desc-roux
+  physicalDesc: reagent-physical-desc-thick
+  flavor: savory
+  color: "#672108"
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateHunger
+        factor: 0.5

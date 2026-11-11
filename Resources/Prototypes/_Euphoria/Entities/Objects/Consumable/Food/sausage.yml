@@ -1,0 +1,201 @@
+﻿- type: entity
+  parent: FoodMealBase
+  id: FoodBangersMash
+  name: bangers and mash
+  description: Bangers and Mash! And Gravy! And Peas!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: bangersandmash
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - potatoes
+    - gravy
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity # At some point this list became sausage/fat/uncooked animal proteins related foods
+  parent: FoodMealBase
+  id: FoodBiscuitsGravy
+  name: biscuits and gravy
+  description: Soft doughy bread with white gravy. Named such to confuse Englishmen.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: biscuitsandgravy
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - gravy
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Flavorol
+          Quantity: 3
+  - type: Tag
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodCorndog
+  name: corndog
+  description: Don't eat the stick!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: corndog
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 18
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 8
+        - ReagentId: Flavorol
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+    - meaty
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodPoutine
+  name: poutine
+  description: Fries topped with cheese curds and gravy. You'll be sure to keep poutine some in your mouth.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: poutine
+  - type: FlavorProfile
+    flavors:
+    - potatoes
+    - cheesy
+    - gravy
+  - type: Tag
+    tags:
+    - ClothMade # Mothic food, if only to bring to parity with other Cheese Curd foods
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodScotchEgg
+  name: scotch egg
+  description: A boiled egg encased in breaded sausage meat.
+  components:
+  - type: Item
+    size: Tiny
+    shape:
+    - 0,0,0,0
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: scotchegg
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - egg
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Flavorol
+          Quantity: 3
+  - type: Tag
+    tags:
+    - Meat
+    - ScotchEgg
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodTakosan
+  name: tako-san wiener
+  description: A wiener cut and decorated into the likeness of an octopus. Too cute to eat?
+  components:
+  - type: Item
+    size: Tiny
+    shape:
+    - 0,0,0,0
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: takosansausage
+  - type: FlavorProfile
+    flavors:
+    - meaty
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Flavorol
+          Quantity: 3
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodYorkshirePudding
+  name: yorkshire pudding
+  description: Made from pouring batter onto heated fat. Named such to confuse Americans.
+  components:
+  - type: Item
+    size: Tiny
+    shape:
+    - 0,0,0,0
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: yorkshirepudding
+  - type: FlavorProfile
+    flavors:
+    - savory
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Flavorol
+          Quantity: 3
+
+- type: entity
+  parent: FoodMealBase
+  id: FoodToadInTheHole
+  name: toad in the hole
+  description: Thankfully does not contain any toads.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/sausage.rsi
+    state: toadinthehole
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,2,1
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 40
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 30
+        - ReagentId: Flavorol
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - savory
+    - gravy
+  - type: Tag
+    tags:
+    - Meat

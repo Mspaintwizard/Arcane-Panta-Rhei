@@ -56,6 +56,13 @@
       - FoodBakedNugget
       - FoodTacoShell
       - FoodBakedGrilledCheeseSandwich # DeltaV
+      # Begin Euphoria additions
+      - FoodHotdogChicago
+      - FoodHotdogBacon
+      - FoodHotdogChili
+      - FoodCorndog
+      - FoodScotchEgg
+      # End Euphoria additions
     chance: 0.8
     offset: 0.0
     #rare

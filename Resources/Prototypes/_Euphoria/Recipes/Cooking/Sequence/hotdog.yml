@@ -401,3 +401,61 @@
     count:
       min: 1
       max: 2
+
+- type: metamorphRecipe
+  id: FoodHotdogHalv
+  key: Hotdog
+  result: FoodHotdogHalv
+  rules:
+  - !type:SequenceLength
+    range:
+      min: 3
+      max: 5
+  - !type:IngredientsWithTags # 1 hotdog
+    tags:
+    - Meat
+    - Cooked
+    - Sausage
+    count:
+      min: 1
+      max: 2 # Technically a Halv Special with two dogs is a Hel Special, maybe something for the future?
+  - !type:IngredientsWithTags # 1 potato
+    tags:
+    - Vegetable
+    - Potato
+    count:
+      min: 1
+      max: 2
+  - !type:IngredientsWithTags # 1 shrimp
+    tags:
+    - Cooked
+    - Meat
+    - Shrimp
+    count:
+      min: 1
+      max: 2
+
+- type: metamorphRecipe
+  id: FoodHotdogPuka
+  key: Hotdog
+  result: FoodHotdogPuka
+  rules:
+  - !type:SequenceLength
+    range:
+      min: 3
+      max: 5
+  - !type:IngredientsWithTags # 1 hotdog
+    tags:
+    - Meat
+    - Cooked
+    - Sausage
+    count:
+      min: 1
+      max: 2
+  - !type:IngredientsWithTags # 2 pineapple slices
+    tags:
+    - Fruit
+    - Slice
+    count:
+      min: 2
+      max: 3

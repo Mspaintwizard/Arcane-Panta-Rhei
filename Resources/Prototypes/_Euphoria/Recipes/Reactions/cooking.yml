@@ -22,3 +22,24 @@
   effects:
   - !type:SpawnEntity
     entity: FoodMothersCheese
+
+- type: reaction
+  id: GravyReaction
+  reactants:
+    Roux:
+      amount: 10
+    Water:
+      amount: 5
+  products:
+    Gravy: 15
+
+- type: reaction
+  id: RouxReaction
+  minTemp: 365
+  reactants:
+    Fat:
+      amount: 9
+    Flour:
+      amount: 5
+  products:
+    Roux: 10

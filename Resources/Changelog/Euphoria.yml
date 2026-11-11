@@ -7020,3 +7020,35 @@ Entries:
       message: New logo and icon. Fresh coat of paint!
   id: 871
   time: '2026-11-09T13:28:30.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Add
+      message: Added Gravy. All aboard the Gravy Train!
+    - type: Add
+      message: >-
+        Added eight new meals: Bangers and Mash; Biscuits and Gravy; Corndog;
+        Poutine; Scotch Egg; Tako-San Wiener; Yorkshire Pudding; Toad In A Hole.
+    - type: Add
+      message: 'Added two new hot dogs: Halv Special and Puka Dog.'
+    - type: Add
+      message: Added new recipes for Sassyage Pizza and Pigs In A Blanket.
+    - type: Tweak
+      message: >-
+        Changed the recipe for Raw Sausages via Stomachs to use Animal Stomachs
+        instead of Human Stomachs.
+    - type: Add
+      message: >-
+        Added a new Mail for Chefs providing three sausages and a hot dog recipe
+        card from the Secret Wiener Friends.
+    - type: Add
+      message: Added a new Cargo Bounty for Scotch Eggs.
+    - type: Add
+      message: Added a bunch of recent food additions to the Random Food Spawn Pool.
+  id: 872
+  time: '2026-11-10T11:10:58.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: 'added high heel shoes '
+  id: 873
+  time: '2026-11-10T11:12:12.0000000+00:00'

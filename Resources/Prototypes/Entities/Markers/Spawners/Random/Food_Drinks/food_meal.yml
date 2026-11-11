@@ -98,6 +98,13 @@
       # End Nyanotrasen additions
       - FoodMealCornInButter
       - FoodSoupStew
+      # Begin Euphoria additions
+      - FoodNoodlesShrimpAlfredo
+      - FoodShrimpFriedRice
+      - FoodBangersMash
+      - FoodBiscuitsGravy
+      - FoodPoutine
+      # End Euphoria additions
     chance: 0.8
     offset: 0.0
     #rare
@@ -122,4 +129,5 @@
       - FoodSoupElectron
       - FoodMothBakedCheesePlatter # Nyanotrasen - Moth Recipes
       - FoodNoodlesCopy
+      - FoodToadInTheHole # Euphoria
     rareChance: 0.05

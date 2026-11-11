@@ -143,3 +143,5 @@
       MailPassengerMoney: 3
     Warden:
       MailWardenCrowdControl: 2
+    Chef: # Euphoria
+      MailChefHotDog: 3

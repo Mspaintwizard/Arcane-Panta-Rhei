@@ -1,0 +1,11 @@
+﻿- type: cargoBounty
+  id: BountyScotchEgg
+  reward: 4000
+  description: bounty-description-scotchegg
+  idPrefix: HGI
+  entries:
+  - name: bounty-item-scotchegg
+    amount: 5
+    whitelist:
+      tags:
+      - ScotchEgg

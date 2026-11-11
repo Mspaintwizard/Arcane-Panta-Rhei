@@ -8,3 +8,4 @@ flavor-complex-baxshots = warm and gentle
 flavor-complex-shrimp = like shrimps
 flavor-complex-shrimp-soda = like fizzy, bubbly shrimp
 flavor-complex-breast-milk = like warm, thick milk
+flavor-complex-gravy = like gravy

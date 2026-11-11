@@ -283,3 +283,36 @@
     - bun
     - bacon
     - meaty
+
+- type: entity
+  parent: FoodMealHotdog
+  id: FoodHotdogHalv
+  name: halv special
+  description: A Swedish hot dog topped with mashed potato and shrimp. It's special, that's for sure.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/hotdog.rsi
+    layers:
+    - state: halvspecial
+  - type: FlavorProfile
+    flavors:
+    - bun
+    - shrimp
+    - potatoes
+    - meaty
+
+- type: entity
+  parent: FoodMealHotdog
+  id: FoodHotdogPuka
+  name: puka dog
+  description: A Hawaiian hot dog with an oddly-cut bun and a tropical fruit relish. Puka up!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/hotdog.rsi
+    layers:
+    - state: pukadog
+  - type: FlavorProfile
+    flavors:
+    - bun
+    - pineapple
+    - meaty

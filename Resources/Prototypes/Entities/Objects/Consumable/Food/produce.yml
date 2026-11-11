@@ -873,7 +873,7 @@
   name: potato
   parent: FoodProduceBase
   id: FoodPotato
-  description: Boil them, mash them, stick them in a stew. # Euphoria - Removed the Irish Potato Famine joke for obvious reasons. 
+  description: Boil them, mash them, stick them in a stew. # Euphoria - Removed the Irish Potato Famine joke for obvious reasons.
   components:
   - type: FlavorProfile
     flavors:
