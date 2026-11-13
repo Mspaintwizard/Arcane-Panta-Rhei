@@ -7126,3 +7126,15 @@ Entries:
       message: Eggs can now go into the mask slot allowing foxes to steal eggs.
   id: 882
   time: '2026-11-13T10:55:12.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Bepis has added a new snack called  TopTarts to its vending machines
+        sector wide.
+    - type: Add
+      message: >-
+        HGI has been given permission by Bepis to allow its Chefs to bake three
+        flavors of TopTarts.
+  id: 883
+  time: '2026-11-13T10:56:39.0000000+00:00'
