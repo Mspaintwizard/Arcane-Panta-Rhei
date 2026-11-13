@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Made by mnemotechnician using original egg sprites (taken from cev-eris at https://github.com/discordia-space/CEV-Eris/raw/9c980cb9bc84d07b1c210c5447798af525185f80/icons/obj/food.dmi) and tennisball.rsi sprites (IproduceWidgets (github)) as references",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "equipped-MASK",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-fox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-dog",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-vulpkanin",
+      "directions": 4
+    }
+  ]
+}
