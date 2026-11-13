@@ -7078,3 +7078,15 @@ Entries:
         their originals
   id: 876
   time: '2026-11-12T11:49:53.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        Sech tech emotional support collars IDs should now will display the
+        proper role icon on huds.
+    - type: Fix
+      message: Salvage emotional support collars now include the astronav (gps.)
+    - type: Fix
+      message: Atmos emotional support IDs job title no longer has a typo.
+  id: 877
+  time: '2026-11-13T04:01:05.0000000+00:00'
