@@ -7138,3 +7138,15 @@ Entries:
         flavors of TopTarts.
   id: 883
   time: '2026-11-13T10:56:39.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Taiyaki will now use one of the syrups for its flavors instead of the
+        berries directly or a chocolate bar.
+    - type: Tweak
+      message: >-
+        The Chefvend will now come stocked with one ice bucket so chefs can make
+        small batches of ice cream at the start of the round if they so desire.
+  id: 884
+  time: '2026-11-13T10:57:34.0000000+00:00'
