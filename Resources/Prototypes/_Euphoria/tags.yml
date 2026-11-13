@@ -6,7 +6,13 @@
   id: BassGuitar # regular version
 
 - type: Tag
+  id: TopTart # toptarts
+
+- type: Tag
   id: Lighters
 
 - type: Tag
   id: BigAssBluntCrafter
+
+- type: Tag
+  id: SwordFish # Swordfih

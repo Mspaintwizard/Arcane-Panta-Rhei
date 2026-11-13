@@ -114,6 +114,12 @@
   - type: Construction
     graph: Egg
     node: start
+  # Euphoria changes start - let foxes steal eggs
+  - type: Clothing
+    quickEquip: false
+    sprite: _Euphoria/Objects/Fun/Mask/egg-inventory.rsi
+    slots: [ mask ]
+    # Euphoria changes end
 
 - type: entity
   parent: FoodEggBase

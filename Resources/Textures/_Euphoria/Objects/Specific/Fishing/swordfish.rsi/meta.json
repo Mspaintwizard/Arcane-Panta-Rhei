@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from TgStation13 PR: https://github.com/tgstation/tgstation/pull/85252",
+    "size": {
+        "x": 64,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        }
+    ]
+}

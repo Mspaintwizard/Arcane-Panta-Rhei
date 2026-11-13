@@ -126,3 +126,5 @@
     components:
     #- type: Psionic
     - PotentialPsionic
+  - !type:RemTagTraitEffect
+    tagToRem: AnomalyHost

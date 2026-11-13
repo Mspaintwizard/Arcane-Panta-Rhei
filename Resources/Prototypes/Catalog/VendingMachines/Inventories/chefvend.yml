@@ -44,6 +44,7 @@
     ReagentContainerChocolateSyrup: 1
     ReagentContainerRaspberrySyrup: 1
     ReagentContainerStrawberrySyrup: 1
+    DrinkIceBucket: 1
     # End Euphoria additions
   contrabandInventory:
     EggBoxBroken: 1

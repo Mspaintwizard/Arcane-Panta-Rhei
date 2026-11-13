@@ -1,0 +1,29 @@
+{
+    "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from AuoraStation13 Commit: https://github.com/Aurorastation/Aurora.3/commit/aad2e6bbd4838e4500a68bbd3f6e53cd28f2034f",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "toptart_strawberry_raw"
+        },
+        {
+            "name": "toptart_strawberry"
+        },
+        {
+            "name": "toptart_chocolate_raw"
+        },
+        {
+            "name": "toptart_chocolate"
+        },
+        {
+            "name": "toptart_blueberry_raw"
+        },
+        {
+            "name": "toptart_blueberry"
+        }
+    ]
+}

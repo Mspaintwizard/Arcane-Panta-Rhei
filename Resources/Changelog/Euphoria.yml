@@ -7090,3 +7090,81 @@ Entries:
       message: Atmos emotional support IDs job title no longer has a typo.
   id: 877
   time: '2026-11-13T04:01:05.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: PKAs will accept multiple of the same upgrade again.
+    - type: Tweak
+      message: >-
+        PKAs have a total upgrade slot capacity and each upgrade type takes up a
+        percentage of that capacity.
+  id: 878
+  time: '2026-11-13T10:51:28.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: The Sword and Chainsaw Fish have been spotted in local station waters.
+  id: 879
+  time: '2026-11-13T10:52:14.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Tweak
+      message: >-
+        Those with the No Psionic Potential trait can no longer host anomaly
+        infections.
+  id: 880
+  time: '2026-11-13T10:53:04.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Add
+      message: Added admeme super duper cloaking device.
+  id: 881
+  time: '2026-11-13T10:54:21.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Eggs can now go into the mask slot allowing foxes to steal eggs.
+  id: 882
+  time: '2026-11-13T10:55:12.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Bepis has added a new snack called  TopTarts to its vending machines
+        sector wide.
+    - type: Add
+      message: >-
+        HGI has been given permission by Bepis to allow its Chefs to bake three
+        flavors of TopTarts.
+  id: 883
+  time: '2026-11-13T10:56:39.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Taiyaki will now use one of the syrups for its flavors instead of the
+        berries directly or a chocolate bar.
+    - type: Tweak
+      message: >-
+        The Chefvend will now come stocked with one ice bucket so chefs can make
+        small batches of ice cream at the start of the round if they so desire.
+  id: 884
+  time: '2026-11-13T10:57:34.0000000+00:00'
+- author: LillRatties
+  changes:
+    - type: Add
+      message: Added jockstraps to the loadout
+  id: 885
+  time: '2026-11-13T10:58:04.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Add
+      message: Voyager station including unique evac, logi and salvage shuttle!
+  id: 886
+  time: '2026-11-13T10:58:27.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Fix
+      message: Fixed Biochemical Technologies not appearing in the Guidebook
+  id: 887
+  time: '2026-11-13T10:59:34.0000000+00:00'

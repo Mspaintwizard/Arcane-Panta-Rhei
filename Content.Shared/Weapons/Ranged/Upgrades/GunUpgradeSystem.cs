@@ -81,11 +81,13 @@ public sealed partial class GunUpgradeSystem : EntitySystem // DeltaV - made par
             return;
 
         // DeltaV - add coutn check to allow having no tags
+        /* Euphoria - We arent going to limit how many of the same upgrade you can slot in a weapon
         if (upgradeComponent.Tags.Count > 0 && GetCurrentUpgradeTags(ent).ToHashSet().IsSupersetOf(upgradeComponent.Tags))
         {
             _popup.PopupPredicted(Loc.GetString("upgradeable-gun-popup-already-present"), ent, args.User);
             return;
         }
+        */
 
         // Begin DeltaV Additions
         var attemptEv = new GunUpgradeAttemptEvent(ent, args.User);

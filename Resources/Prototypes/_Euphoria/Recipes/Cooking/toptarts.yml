@@ -1,0 +1,79 @@
+﻿# making the raw toptart
+- type: microwaveMealRecipe
+  id: RecipeToptartStrawberryRaw
+  name: raw strawberry toptart recipe
+  result: FoodSnackTopTartStrawberryRaw
+  time: 10
+  group: Savory
+  reagents:
+    Egg: 6
+    StrawberrySyrup: 5
+    Sugar: 5
+  solids:
+    FoodDoughSlice: 1
+  recipeType:
+  - Assembler
+
+- type: microwaveMealRecipe
+  id: RecipeToptartBlueberryRaw
+  name: raw blueberry toptart recipe
+  result: FoodSnackTopTartBlueberryRaw
+  time: 10
+  group: Savory
+  reagents:
+    Egg: 6
+    BlueberrySyrup: 5
+    Sugar: 5
+  solids:
+    FoodDoughSlice: 1
+  recipeType:
+  - Assembler
+
+- type: microwaveMealRecipe
+  id: RecipeToptartChoclateRaw
+  name: raw chocolate toptart recipe
+  result: FoodSnackTopTartChocolateRaw
+  time: 10
+  group: Savory
+  reagents:
+    Egg: 6
+    ChocolateSyrup: 5
+    Sugar: 5
+  solids:
+    FoodDoughSlice: 1
+  recipeType:
+  - Assembler
+
+# cooking the acutal toptart
+- type: microwaveMealRecipe
+  id: RecipeToptartStrawberry
+  name: strawberry toptart recipe
+  result: FoodSnackTopTartStrawberry
+  time: 5 # half the time so its less annoying to make them not raw
+  group: Savory
+  solids:
+    FoodSnackTopTartStrawberryRaw: 1
+  recipeType:
+  - Assembler
+
+- type: microwaveMealRecipe
+  id: RecipeToptartBlueberry
+  name: blueberry toptart recipe
+  result: FoodSnackTopTartBlueberry
+  time: 5
+  group: Savory
+  solids:
+    FoodSnackTopTartBlueberryRaw: 1
+  recipeType:
+  - Assembler
+
+- type: microwaveMealRecipe
+  id: RecipeToptartChocolate
+  name: chocolate toptart recipe
+  result: FoodSnackTopTartChocolate
+  time: 5
+  group: Savory
+  solids:
+    FoodSnackTopTartChocolateRaw: 1
+  recipeType:
+  - Assembler

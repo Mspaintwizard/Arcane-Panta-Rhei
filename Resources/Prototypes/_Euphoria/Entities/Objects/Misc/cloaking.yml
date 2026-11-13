@@ -1,0 +1,17 @@
+- type: entity
+  parent: CloakingDevice 
+  id: SuperDuperCloakingDeviceAdmeme
+  name: super duper cloaking device #Differentiate from the super cloaking device. This is unlikely to ever be seen though.
+  description: A device that allows the user to become invisible.
+  components:
+  - type: ComponentToggler
+    parent: true
+    components:
+    - type: Stealth
+      minVisibility: -5 #The values don't do anything past -1, but if that ever changes, I'll be ready.
+      lastVisibility: -5
+      maxVisibility: 0.5 #This should never actually be reached, but if someone wants to add StealthOnMove...
+      enabledOnDeath: false #Invisibility will disable on death. It will instantly re-enable upon revival. 
+  - type: PowerCellDraw
+    drawRate: 0 #Invisible forever.
+    pauseRecharging: false
