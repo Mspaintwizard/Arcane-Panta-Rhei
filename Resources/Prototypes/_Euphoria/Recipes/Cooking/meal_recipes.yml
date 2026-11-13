@@ -144,9 +144,10 @@
   result: FoodTaiyakiBlueberry
   time: 15
   group: Cake
+  reagents:
+    BlueberrySyrup: 5 # we have syrup now so syrup TIME
   solids:
     FoodTaiyakiPlain: 1
-    FoodBlueberry: 3
 
 - type: microwaveMealRecipe
   id: RecipeTaiyakiStrawberry
@@ -154,9 +155,10 @@
   result: FoodTaiyakiStrawberry
   time: 15
   group: Cake
+  reagents:
+    StrawberrySyrup: 5
   solids:
     FoodTaiyakiPlain: 1
-    FoodStrawberry: 3
 
 - type: microwaveMealRecipe
   id: RecipeTaiyakiRaspberry
@@ -164,9 +166,10 @@
   result: FoodTaiyakiRaspberry
   time: 15
   group: Cake
+  reagents:
+    RaspberrySyrup: 5
   solids:
     FoodTaiyakiPlain: 1
-    FoodRaspberry: 3
 
 - type: microwaveMealRecipe
   id: RecipeTaiyakiChocolate
@@ -174,9 +177,10 @@
   result: FoodTaiyakiChocolate
   time: 15
   group: Cake
+  reagents:
+    ChocolateSyrup: 5
   solids:
     FoodTaiyakiPlain: 1
-    FoodSnackChocolateBar: 1 # one bar
 
 - type: microwaveMealRecipe
   id: RecipeTaiyakiBlueRaspberry
@@ -184,9 +188,10 @@
   result: FoodTaiyakiBlueRaspberry
   time: 15
   group: Cake
+  reagents:
+    BlueRaspberrySyrup: 5
   solids:
     FoodTaiyakiPlain: 1
-    FoodBlueRaspberry: 3
 
 # tumor bread
 - type: microwaveMealRecipe
@@ -326,7 +331,7 @@
     Gravy: 5
   solids:
     FoodSausageRaw: 2
-    
+
 - type: microwaveMealRecipe
   id: RecipePattyMelt
   name: patty melt recipe
