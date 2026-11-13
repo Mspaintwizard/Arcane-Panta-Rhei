@@ -7162,3 +7162,9 @@ Entries:
       message: Voyager station including unique evac, logi and salvage shuttle!
   id: 886
   time: '2026-11-13T10:58:27.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Fix
+      message: Fixed Biochemical Technologies not appearing in the Guidebook
+  id: 887
+  time: '2026-11-13T10:59:34.0000000+00:00'
