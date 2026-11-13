@@ -7090,3 +7090,13 @@ Entries:
       message: Atmos emotional support IDs job title no longer has a typo.
   id: 877
   time: '2026-11-13T04:01:05.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: PKAs will accept multiple of the same upgrade again.
+    - type: Tweak
+      message: >-
+        PKAs have a total upgrade slot capacity and each upgrade type takes up a
+        percentage of that capacity.
+  id: 878
+  time: '2026-11-13T10:51:28.0000000+00:00'
