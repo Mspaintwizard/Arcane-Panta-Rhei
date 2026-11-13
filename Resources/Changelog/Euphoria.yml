@@ -7150,3 +7150,9 @@ Entries:
         small batches of ice cream at the start of the round if they so desire.
   id: 884
   time: '2026-11-13T10:57:34.0000000+00:00'
+- author: LillRatties
+  changes:
+    - type: Add
+      message: Added jockstraps to the loadout
+  id: 885
+  time: '2026-11-13T10:58:04.0000000+00:00'
