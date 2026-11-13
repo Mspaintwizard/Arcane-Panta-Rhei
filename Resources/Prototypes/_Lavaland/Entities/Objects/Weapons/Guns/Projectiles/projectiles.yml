@@ -19,7 +19,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 5
+        Blunt: 7 # Euphoria - overwrite part of the parent to give this a little more damage
 
 - type: entity
   id: PelletKinetic
@@ -36,5 +36,5 @@
   components:
   - type: ProjectileSpread
     proto: PelletKinetic
-    count: 4
+    count: 6 # Euphoria - increase count a little bit
     spread: 20

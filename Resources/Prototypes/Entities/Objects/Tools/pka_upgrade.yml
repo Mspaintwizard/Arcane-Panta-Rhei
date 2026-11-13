@@ -36,6 +36,8 @@
     examineText: gun-upgrade-examine-text-damage
   - type: GunUpgradeDamage
     modifier: 1.25
+  - type: GunUpgradeCost # Euphoria - add costs back
+    cost: 25
     #damage:
     #  types:
     #    Blunt: 10
@@ -62,8 +64,8 @@
     examineText: gun-upgrade-examine-text-range
   #- type: GunUpgradeRange # DeltaV - actually change range not speed
   #  coefficient: 1.15 # DeltaV - lowered further to account for increased base range
-  #- type: GunUpgradeCost # DeltaV
-  #  cost: 25
+  - type: GunUpgradeCost # Euphoria - add costs back
+    cost: 20
   - type: GunUpgradeSpeed
     coefficient: 1.5
   # Floofstation - lavaland pka changes end
@@ -87,3 +89,5 @@
     examineText: gun-upgrade-examine-text-reload
   - type: GunUpgradeFireRate
     coefficient: 1.5
+  - type: GunUpgradeCost # Euphoria - add costs back
+    cost: 20

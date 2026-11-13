@@ -31,7 +31,7 @@
     shape:
     - 0,0,4,0
   - type: UpgradeableGun
-    maxUpgradeCount: 10 # DeltaV - use cost for limiting modkits instead
+    maxUpgradeCount: 5 # DeltaV - use cost for limiting modkits instead
     whitelist:
       tags:
       - PKAUpgrade
@@ -63,14 +63,14 @@
       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
   - type: BasicEntityAmmoProvider
     proto: RapidBulletKinetic
-    capacity: 3
-    count: 3
+    capacity: 2 # Euphoria - reduce capacity from 3 to 2
+    count: 2 # Euphoria - reduce count from 3 to 2
   - type: Item
     sprite: _Lavaland/Objects/Weapons/Guns/Basic/kinetic_repeater.rsi
     shape:
     - 0,0,2,1
   - type: UpgradeableGun
-    maxUpgradeCount: 10 # DeltaV - use cost for limiting modkits instead
+    maxUpgradeCount: 5 # DeltaV - use cost for limiting modkits instead
     whitelist:
       tags:
       - PKAUpgrade
@@ -115,7 +115,7 @@
     - 0,0,1,0
     - 0,1,0,1
   - type: UpgradeableGun
-    maxUpgradeCount: 10 # DeltaV - use cost for limiting modkits instead
+    maxUpgradeCount: 7 # DeltaV - use cost for limiting modkits instead
     whitelist:
       tags:
       - PKAUpgrade
