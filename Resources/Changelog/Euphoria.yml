@@ -7120,3 +7120,9 @@ Entries:
       message: Added admeme super duper cloaking device.
   id: 881
   time: '2026-11-13T10:54:21.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Eggs can now go into the mask slot allowing foxes to steal eggs.
+  id: 882
+  time: '2026-11-13T10:55:12.0000000+00:00'
