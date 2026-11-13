@@ -7,5 +7,7 @@ flavor-complex-blueraspberry = like natures candy mixed with blueberries
 flavor-complex-baxshots = warm and gentle
 flavor-complex-shrimp = like shrimps
 flavor-complex-shrimp-soda = like fizzy, bubbly shrimp
+flavor-complex-gibtonite-froth = like simultaneous knockout punches to the liver and head
+flavor-complex-leafguard = like an insult to dwarfkind, and buzzkilling
 flavor-complex-breast-milk = like warm, thick milk
 flavor-complex-gravy = like gravy

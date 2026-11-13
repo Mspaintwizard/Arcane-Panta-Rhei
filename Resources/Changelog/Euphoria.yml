@@ -7066,3 +7066,15 @@ Entries:
         nutriment and uncooked animal proteins
   id: 875
   time: '2026-11-11T16:14:30.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: added a new barsign, themed around deep rock galactic
+    - type: Add
+      message: added two new DRG themed drinks
+    - type: Tweak
+      message: >-
+        edited the tooltips of the two existing DRG themed drinks to reflect
+        their originals
+  id: 876
+  time: '2026-11-12T11:49:53.0000000+00:00'

@@ -49,6 +49,16 @@
   description: flavor-complex-shrimp-soda
 
 - type: flavor
+  id: gibtonitefroth
+  flavorType: Complex
+  description: flavor-complex-gibtonite-froth
+
+- type: flavor
+  id: leafguard
+  flavorType: Complex
+  description: flavor-complex-leafguard
+
+- type: flavor
   id: breastmilk
   flavorType: Complex
   description: flavor-complex-breast-milk
