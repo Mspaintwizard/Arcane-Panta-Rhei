@@ -1,0 +1,32 @@
+﻿# Chainsaw fih
+- type: entity
+  name: chainsaw fish
+  parent: Chainsaw # parenting off of chainsaw so this fish can be a weapon, we will be nice for now and not let it rot
+  id: ChainsawFish
+  description: A very fishy chainsaw. Usually you use this for cutting down trees... usually.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Specific/Fishing/chainsaw_fish.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: _Euphoria/Objects/Weapons/Melee/chainsaw_fish_weapon.rsi
+
+# sword fih
+- type: entity
+  name: sword fish
+  parent: CombatKnife # using combatknife because we want this dmg to be low
+  id: SwordFish
+  description: A fine fish with a sharp blade on its head? A well seasoned chef will use this inplace of standard kitchen equipment.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Specific/Fishing/swordfish.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: _Euphoria/Objects/Weapons/Melee/swordfish_weapon.rsi
+  - type: Wieldable
+  - type: Sharp
+  - type: Tag
+    tags:
+    - SwordFish
