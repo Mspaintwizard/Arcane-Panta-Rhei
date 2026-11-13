@@ -1,0 +1,161 @@
+﻿- type: entity
+  parent: FoodSnackBase
+  id: FoodSnackTopTartBase
+  abstract: true
+  components:
+  - type: FlavorProfile
+    flavors:
+    - sweet
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_strawberry_raw
+  - type: Tag
+    tags:
+    - FoodSnack
+    - Fruit
+    - TopTart
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: StrawberrySyrup
+          Quantity: 2
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartStrawberryRaw
+  name: raw strawberry toptart
+  description: An unfinished toptart and raw pastry.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - strawberry
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_strawberry_raw
+  - type: SolutionContainerManager # half if someone wants to eat this raw
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: StrawberrySyrup
+          Quantity: 2
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartStrawberry
+  name: strawberry toptart
+  description: A delicious pastry filled with strawberry.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - strawberry
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_strawberry
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: StrawberrySyrup
+          Quantity: 4
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartBlueberryRaw
+  name: raw blueberry toptart
+  description: An unfinished toptart and raw pastry.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - blueberry
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_blueberry_raw
+  - type: SolutionContainerManager # half if someone wants to eat this raw
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: StrawberrySyrup
+          Quantity: 2
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartBlueberry
+  name: blueberry toptart
+  description: A delicious pastry filled with blueberry.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - blueberry
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_blueberry
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: BlueberrySyrup
+          Quantity: 4
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartChocolateRaw
+  name: raw chocolate toptart
+  description: An unfinished toptart and raw pastry.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - blueberry
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_chocolate_raw
+  - type: SolutionContainerManager # half if someone wants to eat this raw
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: ChocolateSyrup
+          Quantity: 2
+        - ReagentId: Theobromine
+          Quantity: 1
+
+- type: entity
+  parent: FoodSnackTopTartBase
+  id: FoodSnackTopTartChocolate
+  name: chocolate toptart
+  description: A delicious pastry filled with chocolate.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - chocolate
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart.rsi
+    state: toptart_chocolate
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: ChocolateSyrup
+          Quantity: 4
+        - ReagentId: Theobromine
+          Quantity: 1

@@ -1,0 +1,96 @@
+﻿- type: entity
+  parent: BaseStorageItem
+  id: ToptartBoxBase
+  abstract: true
+  components:
+  - type: Item
+    size: Normal
+  - type: Storage
+    grid:
+    - 0,0,2,0
+    whitelist:
+      tags:
+      - TopTart
+    hideStackVisualsWhenClosed: false
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FoodSnackTopTartStrawberry
+          rolls: 3
+  - type: ItemCounter
+    count:
+      tags: [FoodSnack]
+    composite: false
+  - type: Appearance
+
+- type: entity
+  parent: ToptartBoxBase
+  id: StrawberryToptartBox
+  name: Strawberry Toptart Box
+  description: A small box of Strawberry toptarts, yummers!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart_boxes.rsi
+    layers:
+    - map: [ base ]
+      state: toptart_strawberry_box
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: toptart_strawberry_box1 }
+          False: { state: toptart_strawberry_box }
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FoodSnackTopTartStrawberry
+          rolls: 3
+
+- type: entity
+  parent: ToptartBoxBase
+  id: BlueberryToptartBox
+  name: Blueberry Toptart Box
+  description: A small box of Blueberry toptarts, yummers!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart_boxes.rsi
+    layers:
+    - map: [ base ]
+      state: toptart_blueberry_box
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: toptart_blueberry_box1 }
+          False: { state: toptart_blueberry_box }
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FoodSnackTopTartBlueberry
+          rolls: 3
+- type: entity
+  parent: ToptartBoxBase
+  id: ChocolateToptartBox
+  name: Chocolate Toptart Box
+  description: A small box of Chocolate toptarts, yummers!
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/toptart_boxes.rsi
+    layers:
+    - map: [ base ]
+      state: toptart_chocolate_box
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: toptart_chocolate_box1 }
+          False: { state: toptart_chocolate_box }
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FoodSnackTopTartChocolate
+          rolls: 3

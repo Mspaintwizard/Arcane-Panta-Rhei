@@ -6,6 +6,9 @@
   id: BassGuitar # regular version
 
 - type: Tag
+  id: TopTart # toptarts
+
+- type: Tag
   id: Lighters
 
 - type: Tag
