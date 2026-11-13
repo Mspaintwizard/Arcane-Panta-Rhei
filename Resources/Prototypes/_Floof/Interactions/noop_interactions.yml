@@ -184,10 +184,11 @@
     actions:
     - !type:NoOpAction
   effectSuccess:
-    popup: Subtle
+    popup: Obvious
     sound:
       path: /Audio/_Euphoria/InteractVerbs/sniffing.ogg
       params:
-        volume: -1
+        volume: -5
         variation: 0.125
-    soundPerceivedByOthers: false
+        maxDistance: 4
+    soundPerceivedByOthers: true

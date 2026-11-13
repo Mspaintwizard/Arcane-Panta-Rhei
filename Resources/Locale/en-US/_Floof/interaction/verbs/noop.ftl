@@ -87,3 +87,6 @@ interaction-SniffingGesture-name = Sniff
 interaction-SniffingGesture-description = Sniff a coworker and see what happens.
 interaction-SniffingGesture-success-self-popup = You sniff {THE($target)}.
 interaction-SniffingGesture-success-target-popup = {THE($user)} is sniffing you...
+interaction-SniffingGesture-success-others-popup = {THE($user)} sniffs {THE($target)}.
+interaction-SniffingGesture-fail-self-popup = You cannot sniff {THE($target)}!
+interaction-SniffingGesture-fail-target-popup = {THE($user)} tries to sniff you, and fails.
