@@ -838,6 +838,7 @@
     - NanoTaskCartridge
     - NewsReaderCartridge
     - NanoChatCartridge
+    - AstroNavCartridge # salv needs this
 
 - type: entity
   parent: ClothingNeckCollarEmotionalSupportLogisticsBase
