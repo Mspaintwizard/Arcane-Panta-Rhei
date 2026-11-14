@@ -7186,3 +7186,9 @@ Entries:
         construction menu.
   id: 889
   time: '2026-11-14T02:25:58.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: made the new shadekin emotes into an alternate emote trait
+  id: 890
+  time: '2026-11-14T03:08:29.0000000+00:00'
