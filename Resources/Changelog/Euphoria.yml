@@ -7192,3 +7192,11 @@ Entries:
       message: made the new shadekin emotes into an alternate emote trait
   id: 890
   time: '2026-11-14T03:08:29.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        The chef locker will now come with a Electric Range and Kitchen
+        Assembler Flatpack.
+  id: 891
+  time: '2026-11-14T22:53:30.0000000+00:00'
