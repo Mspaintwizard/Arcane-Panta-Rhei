@@ -63,3 +63,22 @@
   - !type:AddTagTraitEffect
     tagsToAdd: SlimeEmotes
 
+
+
+# shadekin alt
+- type: trait
+  id: TraitsEmoteShadekinAlt
+  name: trait-emote-shadekin-alt
+  description: trait-emote-shadekin-alt-description
+  category: Emotes
+  cost: 0
+  conditions:
+  - !type:OneOfSpeciesCondition
+    species:
+    - Shadekin
+  effects:
+  - !type:EmoteSoundsEffect
+    sounds:
+      Male: MaleShadowkinAlt
+      Female: FemaleShadowkinAlt
+      Unsexed: MaleShadowkinAlt

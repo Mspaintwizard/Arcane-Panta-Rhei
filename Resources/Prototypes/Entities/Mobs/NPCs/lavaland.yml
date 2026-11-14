@@ -90,6 +90,14 @@
     radius: 1
     energy: 3
     color: red
+  # Euphoria change start - upgradeable crushers
+  - type: Butcherable
+    spawned:
+    - id: DiamondOre1
+      amount: 1
+    - id: MaterialMagmiteStone1
+      amount: 1
+  # Euphoria changes end
 
 - type: entity
   id: MobWatcherIcewing
@@ -108,6 +116,14 @@
     radius: 1
     energy: 3
     color: deepskyblue
+  # Euphoria change start - upgradeable crushers
+  - type: Butcherable
+    spawned:
+    - id: DiamondOre1
+      amount: 1
+    - id: MaterialGlaciteStone1
+      amount: 1
+  # Euphoria changes end
 
 - type: entity
   id: MobWatcherMagmawing

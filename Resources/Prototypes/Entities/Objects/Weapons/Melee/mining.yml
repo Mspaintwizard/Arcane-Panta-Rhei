@@ -116,6 +116,7 @@
   - type: Tag
     tags:
       - Pickaxe
+      - UpgradeableCrusher # Euphoria - for our magmite/galacite crushers
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher.rsi
     state: icon
