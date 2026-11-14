@@ -7168,3 +7168,9 @@ Entries:
       message: Fixed Biochemical Technologies not appearing in the Guidebook
   id: 887
   time: '2026-11-13T10:59:34.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: added most harpy exclusive wing markings to the common wing marking pool
+  id: 888
+  time: '2026-11-14T02:06:03.0000000+00:00'
