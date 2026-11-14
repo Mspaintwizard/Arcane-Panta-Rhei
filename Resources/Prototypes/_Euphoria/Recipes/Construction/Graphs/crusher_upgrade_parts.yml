@@ -1,0 +1,79 @@
+﻿- type: constructionGraph
+  id: MagmiteUpgradePart
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: magmiteupgradepart
+      steps:
+      - material: Diamond
+        amount: 2
+        doAfter: 2
+      - material: MagmiteStone
+        amount: 3
+        doAfter: 2
+  - node: magmiteupgradepart
+    entity: MagmiteUpgradePart
+
+- type: constructionGraph
+  id: GlaciteUpgradePart
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: glaciteupgradepart
+      steps:
+      - material: Diamond
+        amount: 2
+        doAfter: 2
+      - material: GlaciteStone
+        amount: 3
+        doAfter: 2
+  - node: glaciteupgradepart
+    entity: GlaciteUpgradePart
+
+- type: constructionGraph
+  id: MagmiteCrusher
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: magmitecrusher
+      steps:
+      - tag: MagmiteUpgradePart
+        icon:
+          sprite: _Euphoria/Objects/Weapons/Crusher/magmite_upgrade_part.rsi
+          state: magmite-parts
+        name: construction-graph-tag-magmite-crusher-part
+        doAfter: 2
+      - tag: UpgradeableCrusher
+        icon:
+          sprite: Objects/Weapons/Melee/crusher.rsi
+          state: icon
+        name: construction-graph-tag-upgradeable-crusher
+        doAfter: 2
+  - node: magmitecrusher
+    entity: WeaponCrusherMagmite
+
+- type: constructionGraph
+  id: GlaciteCrusher
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: glacitecrusher
+      steps:
+      - tag: GlaciteUpgradePart
+        icon:
+          sprite: _Euphoria/Objects/Weapons/Crusher/glacite_upgrade_part.rsi
+          state: glacite-parts
+        name: construction-graph-tag-glacite-crusher-part
+        doAfter: 2
+      - tag: UpgradeableCrusher
+        icon:
+          sprite: Objects/Weapons/Melee/crusher.rsi
+          state: icon
+        name: construction-graph-tag-upgradeable-crusher
+        doAfter: 2
+  - node: glacitecrusher
+    entity: WeaponCrusherGlacite

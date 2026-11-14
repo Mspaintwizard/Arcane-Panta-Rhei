@@ -1,0 +1,13 @@
+﻿- type: stack
+  parent: BaseMediumStack
+  id: MagmiteStone
+  name: stack-magmite-stone
+  icon: { sprite: /Textures/_Euphoria/Objects/Weapons/Crusher/magmite.rsi, state: magmite-stone }
+  spawn: MaterialMagmiteStone1
+
+- type: stack
+  parent: BaseMediumStack
+  id: GlaciteStone
+  name: stack-glacite-stone
+  icon: { sprite: /Textures/_Euphoria/Objects/Weapons/Crusher/glacite.rsi, state: glacite-stone }
+  spawn: MaterialGlaciteStone1

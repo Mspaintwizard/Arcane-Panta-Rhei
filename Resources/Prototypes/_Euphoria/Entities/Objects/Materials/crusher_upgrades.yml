@@ -1,0 +1,79 @@
+﻿# magmite
+- type: entity
+  parent: MaterialBase
+  id: MaterialMagmiteStone
+  name: magmite stones
+  description: A Magmite infused stone that contains properties well suited for upgrading some salvage gear.
+  suffix: Full
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+    scale: 0.7,0.7
+    layers:
+    - state: magmite-stone
+      map: [ "base" ]
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 1500
+  - type: Appearance
+  - type: Stack
+    stackType: MagmiteStone
+    baseLayer: base
+  - type: Item
+    size: Large
+    heldPrefix: magmite-stone
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+    shape:
+    - 0,0,2,2
+  - type: Tag
+    tags:
+    - MagmiteStone
+
+- type: entity
+  parent: MaterialMagmiteStone
+  id: MaterialMagmiteStone1
+  suffix: 1
+  components:
+  - type: Stack
+    count: 1
+
+# glacite
+- type: entity
+  parent: MaterialBase
+  id: MaterialGlaciteStone
+  name: glacite stones
+  description: A Glacite infused stone that contains properties well suited for upgrading some salvage gear.
+  suffix: Full
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/glacite.rsi
+    scale: 0.7,0.7
+    layers:
+    - state: glacite-stone
+      map: [ "base" ]
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 1500
+  - type: Appearance
+  - type: Stack
+    stackType: GlaciteStone
+    baseLayer: base
+  - type: Item
+    size: Large
+    heldPrefix: glacite-stone
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+    shape:
+    - 0,0,2,2
+  - type: Tag
+    tags:
+    - GlaciteStone
+
+- type: entity
+  parent: MaterialGlaciteStone
+  id: MaterialGlaciteStone1
+  suffix: 1
+  components:
+  - type: Stack
+    count: 1

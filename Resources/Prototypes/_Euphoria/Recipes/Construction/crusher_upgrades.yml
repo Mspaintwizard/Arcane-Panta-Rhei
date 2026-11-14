@@ -1,0 +1,33 @@
+﻿# upgrade parts
+- type: construction
+  id: MagmiteUpgradePart
+  graph: MagmiteUpgradePart
+  startNode: start
+  targetNode: magmiteupgradepart
+  category: construction-category-utilities
+  objectType: Item
+
+- type: construction
+  id: GlaciteUpgradePart
+  graph: GlaciteUpgradePart
+  startNode: start
+  targetNode: glaciteupgradepart
+  category: construction-category-utilities
+  objectType: Item
+
+# actual weapons
+- type: construction
+  id: MagmiteCrusher
+  graph: MagmiteCrusher
+  startNode: start
+  targetNode: magmitecrusher
+  category: construction-category-utilities
+  objectType: Item
+
+- type: construction
+  id: GlaciteCrusher
+  graph: GlaciteCrusher
+  startNode: start
+  targetNode: glacitecrusher
+  category: construction-category-utilities
+  objectType: Item

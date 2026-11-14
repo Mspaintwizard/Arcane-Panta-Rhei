@@ -1,0 +1,113 @@
+﻿# magmite nad glaicate crusher vairant upgrades here
+- type: entity
+  parent: [WeaponCrusher, BaseSecurityCargoContraband]
+  id: WeaponCrusherMagmite
+  name: magmite crusher
+  description: A Crusher that has a diamond reinforced handle and a Magmite infused blade.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+  # Basically a crusher but better
+  - type: MeleeWeapon
+    range: 2.2
+    damage:
+      types:
+        Slash: 6 # boost damage a little bit
+        Blunt: 11
+        Heat: 3
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 4
+        Slash: 4
+        Heat: 4
+        Structural: 35 # upgrade so give it a little more dmg
+  - type: Clothing
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Construction
+    graph: MagmiteCrusher
+    node: magmitecrusher
+  - type: Tag
+    tags:
+    - Pickaxe # we have to override the tags of the crusher so we don't get into an upgrade loop
+
+- type: entity
+  parent: [WeaponCrusher, BaseSecurityCargoContraband]
+  id: WeaponCrusherGlacite
+  name: glacite crusher
+  description: A Crusher that has a diamond reinforced handle and a Glacite infused blade.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/glacite.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+    sprite: _Euphoria/Objects/Weapons/Crusher/glacite.rsi
+  # Basically a crusher but better
+  - type: MeleeWeapon
+    range: 2.2
+    damage:
+      types:
+        Slash: 6 # boost damage a little bit
+        Blunt: 11
+        Cold: 3
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 4
+        Slash: 4
+        Cold: 4
+        Structural: 35 # upgrade so give it a little more dmg
+  - type: Clothing
+    sprite: _Euphoria/Objects/Weapons/Crusher/glacite.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Construction
+    graph: GlaciteCrusher
+    node: glacitecrusher
+  - type: Tag
+    tags:
+    - Pickaxe # we have to override the tags of the crusher so we don't get into an upgrade loop
+
+# upgrade parts
+- type: entity
+  parent: BaseItem
+  id: MagmiteUpgradePart
+  name: magmite upgrade part
+  description: A Magmite infused crusher upgrade part. You can feel the heat coming off of it.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/magmite_upgrade_part.rsi
+    state: magmite-parts
+  - type: Tag
+    tags:
+    - MagmiteUpgradePart
+  - type: Construction
+    graph: MagmiteUpgradePart
+    node: magmiteupgradepart
+
+- type: entity
+  parent: BaseItem
+  id: GlaciteUpgradePart
+  name: glacite upgrade part
+  description: A Glacite infused crusher upgrade part. You can feel the cold coming off of it.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Weapons/Crusher/glacite_upgrade_part.rsi
+    state: glacite-parts
+  - type: Tag
+    tags:
+    - GlaciteUpgradePart
+  - type: Construction
+    graph: GlaciteUpgradePart
+    node: glaciteupgradepart
