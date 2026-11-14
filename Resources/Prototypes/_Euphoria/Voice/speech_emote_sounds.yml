@@ -48,3 +48,30 @@
 - type: emoteSounds
   id: FemaleResomi
   parent: [BaseResomiUnique, RMCFemaleAvali]
+
+#shadekin alt sounds
+- type: emoteSounds
+  id: MaleShadowkinAlt
+  parent: MaleShadowkin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: SlimeMaleScreams
+    Laugh:
+      collection: ShadowkinMaleLaughs
+    Crying:
+      collection: ShadowkinUnisexCry
+
+- type: emoteSounds
+  id: FemaleShadowkinAlt
+  parent: FemaleShadowkin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: SlimeFemaleScreams
+    Laugh:
+      collection: ShadowkinFemaleLaughs
+    Crying:
+      collection: ShadowkinUnisexCry

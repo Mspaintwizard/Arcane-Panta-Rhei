@@ -39,9 +39,9 @@
     variation: 0.125
   sounds:
     Scream:
-      collection: SlimeMaleScreams
+      collection: ShadowkinMaleScreams
     Laugh:
-      collection: ShadowkinMaleLaughs
+      collection: MaleLaugh
     Sneeze:
       collection: MaleSneezes
     Cough:
@@ -53,7 +53,7 @@
     Sigh:
       collection: MaleSigh
     Crying:
-      collection: ShadowkinUnisexCry
+      collection: MaleCry
     Whistle:
       collection: Whistles
     Weh:
@@ -82,9 +82,9 @@
     variation: 0.125
   sounds:
     Scream:
-      collection: SlimeFemaleScreams
+      collection: ShadowkinFemaleScreams
     Laugh:
-      collection: ShadowkinFemaleLaughs
+      collection: FemaleLaugh
     Sneeze:
       collection: FemaleSneezes
     Cough:
@@ -96,7 +96,7 @@
     Sigh:
       collection: FemaleSigh
     Crying:
-      collection: ShadowkinUnisexCry
+      collection: FemaleCry
     Whistle:
       collection: Whistles
     Weh:
