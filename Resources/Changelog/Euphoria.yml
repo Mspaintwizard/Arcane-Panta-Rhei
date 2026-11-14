@@ -7174,3 +7174,15 @@ Entries:
       message: added most harpy exclusive wing markings to the common wing marking pool
   id: 888
   time: '2026-11-14T02:06:03.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Added two new Crusher upgrade Variants.
+    - type: Add
+      message: Watchers now drop two stone materials to upgrade crushers.
+    - type: Add
+      message: >-
+        Upgrade parts and the crusher upgrade its self can be done in the
+        construction menu.
+  id: 889
+  time: '2026-11-14T02:25:58.0000000+00:00'
