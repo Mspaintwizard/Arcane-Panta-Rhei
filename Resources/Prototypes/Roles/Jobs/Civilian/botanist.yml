@@ -17,11 +17,8 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FourTwenty
     prototype: CannabisSeeds
-  - !type:AddComponentSpecial # Euphoria
-    components:
-    - type: Tag
-      tags:
-      - BigAssBluntCrafter
+  - !type:AddTagSpecial #Euphoria
+    tag: BigAssBluntCrafter
 
 - type: startingGear
   id: BotanistGear
