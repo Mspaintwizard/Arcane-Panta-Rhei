@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 275.2.1
+  engineVersion: 275.2.7
   forkId: ""
   forkVersion: ""
-  time: 10/11/2026 13:23:31
-  entityCount: 19014
+  time: 11/14/2026 13:06:55
+  entityCount: 19016
 maps:
 - 1
 grids:
@@ -7668,44 +7668,58 @@ entities:
     - type: Transform
       pos: -11.5,-53.5
       parent: 2
-- proto: AirlockAtmospherics
-  entities:
-  - uid: 8895
-    components:
-    - type: Transform
-      pos: 29.5,-35.5
-      parent: 2
-  - uid: 8896
-    components:
-    - type: Transform
-      pos: 30.5,-35.5
-      parent: 2
-  - uid: 8897
-    components:
-    - type: Transform
-      pos: 29.5,-38.5
-      parent: 2
-  - uid: 8898
-    components:
-    - type: Transform
-      pos: 30.5,-38.5
-      parent: 2
-- proto: AirlockAtmosphericsGlass
+- proto: AirlockAtmosphericsGlassLocked
   entities:
   - uid: 8901
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 13.5,-46.5
       parent: 2
   - uid: 15181
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 10.5,-43.5
       parent: 2
   - uid: 15182
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 10.5,-42.5
+      parent: 2
+- proto: AirlockAtmosphericsLocked
+  entities:
+  - uid: 8895
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 29.5,-35.5
+      parent: 2
+  - uid: 8896
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 30.5,-35.5
+      parent: 2
+  - uid: 8897
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 29.5,-38.5
+      parent: 2
+  - uid: 8898
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 30.5,-38.5
+      parent: 2
+- proto: AirlockAttorneyGlassLocked
+  entities:
+  - uid: 401
+    components:
+    - type: Transform
+      pos: -39.5,-43.5
       parent: 2
 - proto: AirlockBarLocked
   entities:
@@ -7853,11 +7867,6 @@ entities:
       parent: 2
 - proto: AirlockClerkGlassLocked
   entities:
-  - uid: 401
-    components:
-    - type: Transform
-      pos: -39.5,-43.5
-      parent: 2
   - uid: 413
     components:
     - type: Transform
@@ -8212,7 +8221,7 @@ entities:
       pos: 27.5,-47.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -320929.06
+      secondsUntilStateChange: -321369.7
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -9734,7 +9743,7 @@ entities:
       pos: -30.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -28950.629
+      secondsUntilStateChange: -29391.244
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9761,7 +9770,7 @@ entities:
       pos: -46.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -321546.16
+      secondsUntilStateChange: -321986.78
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9804,7 +9813,7 @@ entities:
       pos: -22.5,-18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -236309.31
+      secondsUntilStateChange: -236749.94
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9926,7 +9935,7 @@ entities:
       pos: -15.5,-42.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -273156.66
+      secondsUntilStateChange: -273597.28
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -14547,6 +14556,11 @@ entities:
       parent: 2
 - proto: BoozeDispenser
   entities:
+  - uid: 6877
+    components:
+    - type: Transform
+      pos: 9.5,-3.5
+      parent: 2
   - uid: 9771
     components:
     - type: Transform
@@ -14563,13 +14577,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -50.5,-45.5
-      parent: 2
-- proto: BoozeDispenserEmpty
-  entities:
-  - uid: 9383
-    components:
-    - type: Transform
-      pos: 9.5,-3.5
       parent: 2
 - proto: BorgCharger
   entities:
@@ -40514,6 +40521,11 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -33.5,-60.5
       parent: 2
+  - uid: 19016
+    components:
+    - type: Transform
+      pos: -32.5,-30.5
+      parent: 2
 - proto: Chair
   entities:
   - uid: 390
@@ -41739,12 +41751,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -35.5,-27.5
-      parent: 2
-  - uid: 9559
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -37.5,-45.5
       parent: 2
   - uid: 9671
     components:
@@ -48199,15 +48205,15 @@ entities:
     - type: Transform
       pos: -32.5,14.5
       parent: 2
-  - uid: 8537
-    components:
-    - type: Transform
-      pos: 25.5,4.5
-      parent: 2
   - uid: 9974
     components:
     - type: Transform
       pos: 6.5,8.5
+      parent: 2
+  - uid: 10710
+    components:
+    - type: Transform
+      pos: 26.5,4.5
       parent: 2
   - uid: 12424
     components:
@@ -89660,6 +89666,13 @@ entities:
     - type: Transform
       pos: 12.5,-45.5
       parent: 2
+- proto: LockerAttorneyFilled
+  entities:
+  - uid: 6443
+    components:
+    - type: Transform
+      pos: -37.5,-45.5
+      parent: 2
 - proto: LockerBoozeFilled
   entities:
   - uid: 14608
@@ -89672,9 +89685,9 @@ entities:
     - type: Transform
       pos: 8.5,-9.5
       parent: 2
-- proto: LockerBotanist
+- proto: LockerBotanistFilled
   entities:
-  - uid: 6877
+  - uid: 9383
     components:
     - type: Transform
       pos: 20.5,9.5
@@ -89693,6 +89706,13 @@ entities:
     - type: Transform
       pos: -3.5,15.5
       parent: 2
+- proto: LockerChemistryFilled
+  entities:
+  - uid: 8537
+    components:
+    - type: Transform
+      pos: 25.5,4.5
+      parent: 2
 - proto: LockerChiefEngineerFilled
   entities:
   - uid: 9420
@@ -89700,9 +89720,9 @@ entities:
     - type: Transform
       pos: 7.5,-56.5
       parent: 2
-- proto: LockerChiefJustice
+- proto: LockerChiefJusticeFilled
   entities:
-  - uid: 10710
+  - uid: 9559
     components:
     - type: Transform
       pos: -40.5,-50.5
@@ -90249,11 +90269,21 @@ entities:
     - type: Transform
       pos: 25.5,5.5
       parent: 2
+    - type: MailingUnit
+      tag: chemistry
+    - type: Configuration
+      config:
+        tag: chemistry
   - uid: 412
     components:
     - type: Transform
       pos: 17.5,6.5
       parent: 2
+    - type: MailingUnit
+      tag: botany
+    - type: Configuration
+      config:
+        tag: botany
 - proto: MailTeleporter
   entities:
   - uid: 23
@@ -103295,12 +103325,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 30.5,4.5
       parent: 2
-  - uid: 6443
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,15.5
-      parent: 2
   - uid: 7691
     components:
     - type: Transform
@@ -103312,6 +103336,12 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,7.5
+      parent: 2
+  - uid: 19015
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -8.5,15.5
       parent: 2
 - proto: SinkStemlessWater
   entities:
@@ -103786,7 +103816,7 @@ entities:
   - uid: 18191
     components:
     - type: Transform
-      pos: 25.5,4.5
+      pos: 26.5,4.5
       parent: 2
 - proto: SpawnPointAtmos
   entities:
