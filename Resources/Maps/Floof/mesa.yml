@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.2.7
   forkId: ""
   forkVersion: ""
-  time: 11/15/2026 19:59:38
-  entityCount: 28718
+  time: 11/16/2026 19:36:50
+  entityCount: 28754
 maps:
 - 1
 grids:
@@ -8062,7 +8062,7 @@ entities:
       pos: -14.5,-59.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -297283.62
+      secondsUntilStateChange: -301599.72
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9610,7 +9610,7 @@ entities:
       pos: 51.5,-35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -260054.81
+      secondsUntilStateChange: -264370.9
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -12768,7 +12768,7 @@ entities:
   - uid: 842
     components:
     - type: Transform
-      pos: 57.5,-9.5
+      pos: 57.463276,-10.582214
       parent: 2
 - proto: BedsheetRainbow
   entities:
@@ -13470,6 +13470,24 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 78.5,-39.5
+      parent: 2
+  - uid: 28648
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 58.5,-46.5
+      parent: 2
+  - uid: 28649
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 57.5,-46.5
+      parent: 2
+  - uid: 28650
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 56.5,-46.5
       parent: 2
   - uid: 28664
     components:
@@ -21881,11 +21899,6 @@ entities:
     components:
     - type: Transform
       pos: 61.5,-42.5
-      parent: 2
-  - uid: 2558
-    components:
-    - type: Transform
-      pos: 61.5,-43.5
       parent: 2
   - uid: 2559
     components:
@@ -32311,6 +32324,21 @@ entities:
     components:
     - type: Transform
       pos: -38.5,-68.5
+      parent: 2
+  - uid: 28736
+    components:
+    - type: Transform
+      pos: 62.5,-42.5
+      parent: 2
+  - uid: 28737
+    components:
+    - type: Transform
+      pos: 62.5,-43.5
+      parent: 2
+  - uid: 28738
+    components:
+    - type: Transform
+      pos: 62.5,-44.5
       parent: 2
 - proto: CableApcStack1
   entities:
@@ -48622,7 +48650,7 @@ entities:
   - uid: 21155
     components:
     - type: Transform
-      pos: -37.562626,-12.249056
+      pos: -37.51851,-12.145548
       parent: 2
 - proto: ClothingHeadHatCowboyGrey
   entities:
@@ -51114,7 +51142,7 @@ entities:
       pos: -16.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -29116.986
+      secondsUntilStateChange: -33433.094
       state: Opening
   - uid: 7075
     components:
@@ -51360,7 +51388,7 @@ entities:
       pos: 58.5,-15.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -212995.02
+      secondsUntilStateChange: -217311.12
       state: Closing
   - uid: 27979
     components:
@@ -57534,6 +57562,28 @@ entities:
       parent: 2
 - proto: DefaultStationBeacon
   entities:
+  - uid: 2558
+    components:
+    - type: Transform
+      pos: -48.5,-4.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D4000096'
+      text: Security technician workshop
+  - uid: 8017
+    components:
+    - type: Transform
+      pos: 12.5,-21.5
+      parent: 2
+    - type: NavMapBeacon
+      text: Arrivals west
+  - uid: 9130
+    components:
+    - type: Transform
+      pos: 83.5,3.5
+      parent: 2
+    - type: NavMapBeacon
+      text: Docking bay
   - uid: 9486
     components:
     - type: Transform
@@ -57550,6 +57600,14 @@ entities:
     - type: NavMapBeacon
       color: '#50D4D496'
       text: Medical mourge
+  - uid: 25078
+    components:
+    - type: Transform
+      pos: -40.5,-54.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#B4460096'
+      text: Genpop processing
   - uid: 28054
     components:
     - type: Transform
@@ -57564,7 +57622,86 @@ entities:
       parent: 2
     - type: NavMapBeacon
       color: '#FF5E0096'
-      text: Cells
+      text: Brig cells
+  - uid: 28721
+    components:
+    - type: Transform
+      pos: -72.5,-8.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#407DD496'
+      text: Command evac waiting area
+  - uid: 28722
+    components:
+    - type: Transform
+      pos: 58.5,-48.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D482D496'
+      text: Datacenter
+  - uid: 28725
+    components:
+    - type: Transform
+      pos: -40.5,3.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D4000096'
+      text: Shooting range
+  - uid: 28726
+    components:
+    - type: Transform
+      pos: 25.5,-64.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D4D40096'
+      text: Tesla garage
+  - uid: 28727
+    components:
+    - type: Transform
+      pos: 55.5,-42.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D41ED496'
+      text: Epistemics statues & servers
+  - uid: 28728
+    components:
+    - type: Transform
+      pos: 39.5,-45.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D41ED496'
+      text: Xenopaeleo
+  - uid: 28729
+    components:
+    - type: Transform
+      pos: 51.5,-66.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D41ED496'
+      text: External artifact chamber
+  - uid: 28733
+    components:
+    - type: Transform
+      pos: 28.5,-21.5
+      parent: 2
+    - type: NavMapBeacon
+      text: Arrivals east
+  - uid: 28743
+    components:
+    - type: Transform
+      pos: -53.5,-66.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#FF5E0096'
+      text: Genpop interface
+  - uid: 28744
+    components:
+    - type: Transform
+      pos: 52.5,-19.5
+      parent: 2
+    - type: NavMapBeacon
+      color: '#D455D496'
+      text: Anomalous materials lab
 - proto: DefaultStationBeaconAI
   entities:
   - uid: 8014
@@ -57600,13 +57737,6 @@ entities:
     - type: Transform
       pos: -41.5,-11.5
       parent: 2
-- proto: DefaultStationBeaconArrivals
-  entities:
-  - uid: 8017
-    components:
-    - type: Transform
-      pos: 13.5,-17.5
-      parent: 2
 - proto: DefaultStationBeaconArtifactLab
   entities:
   - uid: 8018
@@ -57620,6 +57750,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-70.5
+      parent: 2
+- proto: DefaultStationBeaconAttorney
+  entities:
+  - uid: 28734
+    components:
+    - type: Transform
+      pos: -16.5,13.5
       parent: 2
 - proto: DefaultStationBeaconBar
   entities:
@@ -57642,12 +57779,12 @@ entities:
     - type: Transform
       pos: 3.5,15.5
       parent: 2
-- proto: DefaultStationBeaconBrig
+- proto: DefaultStationBeaconCaptainsQuarters
   entities:
-  - uid: 8022
+  - uid: 28742
     components:
     - type: Transform
-      pos: -44.5,-54.5
+      pos: 15.5,15.5
       parent: 2
 - proto: DefaultStationBeaconCargoReception
   entities:
@@ -57691,6 +57828,20 @@ entities:
     - type: Transform
       pos: -18.5,5.5
       parent: 2
+- proto: DefaultStationBeaconClown
+  entities:
+  - uid: 24614
+    components:
+    - type: Transform
+      pos: -61.5,-71.5
+      parent: 2
+- proto: DefaultStationBeaconCMORoom
+  entities:
+  - uid: 28739
+    components:
+    - type: Transform
+      pos: -58.5,-85.5
+      parent: 2
 - proto: DefaultStationBeaconCourtroom
   entities:
   - uid: 8028
@@ -57726,13 +57877,6 @@ entities:
     - type: Transform
       pos: 91.5,-29.5
       parent: 2
-- proto: DefaultStationBeaconDocking
-  entities:
-  - uid: 27399
-    components:
-    - type: Transform
-      pos: 83.5,3.5
-      parent: 2
 - proto: DefaultStationBeaconDorms
   entities:
   - uid: 8032
@@ -57754,6 +57898,18 @@ entities:
     - type: Transform
       pos: -73.5,-22.5
       parent: 2
+  - uid: 28753
+    components:
+    - type: Transform
+      pos: -74.5,-19.5
+      parent: 2
+- proto: DefaultStationBeaconGenPop
+  entities:
+  - uid: 8022
+    components:
+    - type: Transform
+      pos: -67.5,-53.5
+      parent: 2
 - proto: DefaultStationBeaconHOPOffice
   entities:
   - uid: 28130
@@ -57768,6 +57924,13 @@ entities:
     - type: Transform
       pos: -31.5,-13.5
       parent: 2
+  - uid: 28740
+    components:
+    - type: Transform
+      pos: -35.5,-11.5
+      parent: 2
+    - type: NavMapBeacon
+      text: HOS and CJ's room
 - proto: DefaultStationBeaconJanitorsCloset
   entities:
   - uid: 8036
@@ -57841,6 +58004,13 @@ entities:
     - type: Transform
       pos: 95.5,-49.5
       parent: 2
+- proto: DefaultStationBeaconProsecutor
+  entities:
+  - uid: 28735
+    components:
+    - type: Transform
+      pos: -16.5,19.5
+      parent: 2
 - proto: DefaultStationBeaconPsychologist
   entities:
   - uid: 25728
@@ -57850,10 +58020,17 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconQMRoom
   entities:
-  - uid: 28052
+  - uid: 16452
     components:
     - type: Transform
-      pos: 58.5,-10.5
+      pos: 64.5,-10.5
+      parent: 2
+- proto: DefaultStationBeaconRDRoom
+  entities:
+  - uid: 28741
+    components:
+    - type: Transform
+      pos: 65.5,-50.5
       parent: 2
 - proto: DefaultStationBeaconReporter
   entities:
@@ -57889,6 +58066,13 @@ entities:
     components:
     - type: Transform
       pos: -33.5,6.5
+      parent: 2
+- proto: DefaultStationBeaconSecurityCheckpoint
+  entities:
+  - uid: 28754
+    components:
+    - type: Transform
+      pos: -68.5,-23.5
       parent: 2
 - proto: DefaultStationBeaconSingularity
   entities:
@@ -64146,10 +64330,10 @@ entities:
       parent: 2
 - proto: DresserQuarterMasterFilledDV
   entities:
-  - uid: 9130
+  - uid: 27399
     components:
     - type: Transform
-      pos: 58.5,-9.5
+      pos: 57.5,-9.5
       parent: 2
 - proto: DresserResearchDirectorFilledDV
   entities:
@@ -64510,7 +64694,7 @@ entities:
   - uid: 9168
     components:
     - type: Transform
-      pos: 63.375053,-50.252357
+      pos: 63.204353,-50.08788
       parent: 2
   - uid: 25109
     components:
@@ -65191,12 +65375,6 @@ entities:
     - type: Transform
       pos: 85.5,-9.5
       parent: 2
-  - uid: 17284
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 61.5,-50.5
-      parent: 2
   - uid: 26270
     components:
     - type: Transform
@@ -65790,6 +65968,13 @@ entities:
     - type: Transform
       pos: 10.5,-1.5
       parent: 2
+- proto: FaxMachineHeadOfSecurity
+  entities:
+  - uid: 28732
+    components:
+    - type: Transform
+      pos: -37.5,-12.5
+      parent: 2
 - proto: FaxMachineJustice
   entities:
   - uid: 25859
@@ -65839,12 +66024,26 @@ entities:
     - type: Transform
       pos: -29.5,-69.5
       parent: 2
+- proto: FaxMachineQuartermaster
+  entities:
+  - uid: 28731
+    components:
+    - type: Transform
+      pos: 58.5,-9.5
+      parent: 2
 - proto: FaxMachineReporter
   entities:
   - uid: 9295
     components:
     - type: Transform
       pos: -7.5,0.5
+      parent: 2
+- proto: FaxMachineResearchDirector
+  entities:
+  - uid: 28723
+    components:
+    - type: Transform
+      pos: 63.5,-50.5
       parent: 2
 - proto: FaxMachineRoboticist
   entities:
@@ -105689,11 +105888,6 @@ entities:
     - type: Transform
       pos: 31.5,-60.5
       parent: 2
-  - uid: 28710
-    components:
-    - type: Transform
-      pos: 36.5,-59.5
-      parent: 2
 - proto: HolopadEpistemicsMantis
   entities:
   - uid: 14722
@@ -105900,6 +106094,13 @@ entities:
     components:
     - type: Transform
       pos: -39.5,-9.5
+      parent: 2
+- proto: HolopadSecurityBrig
+  entities:
+  - uid: 28724
+    components:
+    - type: Transform
+      pos: -52.5,-64.5
       parent: 2
 - proto: HolopadSecurityCorpsman
   entities:
@@ -118246,10 +118447,10 @@ entities:
       fixtures: {}
 - proto: N14JunkBed2
   entities:
-  - uid: 16452
+  - uid: 28730
     components:
     - type: Transform
-      pos: 57.5,-9.5
+      pos: 57.5,-10.5
       parent: 2
     - type: Fixtures
       fixtures: {}
@@ -122330,8 +122531,11 @@ entities:
   - uid: 28715
     components:
     - type: Transform
+      anchored: True
       pos: -8.5,-42.5
       parent: 2
+    - type: Physics
+      bodyType: Static
 - proto: NuclearFabricatorMachineCircuitboard
   entities:
   - uid: 17165
@@ -124377,12 +124581,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -12.5,-29.5
       parent: 2
-  - uid: 24614
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 61.5,-47.5
-      parent: 2
   - uid: 25811
     components:
     - type: Transform
@@ -124700,6 +124898,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -7.5,6.5
+      parent: 2
+  - uid: 28052
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 61.5,-47.5
       parent: 2
   - uid: 28213
     components:
@@ -143908,21 +144112,6 @@ entities:
     - type: Transform
       pos: 83.5,-21.5
       parent: 2
-  - uid: 28648
-    components:
-    - type: Transform
-      pos: 58.5,-46.5
-      parent: 2
-  - uid: 28649
-    components:
-    - type: Transform
-      pos: 57.5,-46.5
-      parent: 2
-  - uid: 28650
-    components:
-    - type: Transform
-      pos: 56.5,-46.5
-      parent: 2
 - proto: ShuttersWindow
   entities:
   - uid: 10529
@@ -144596,13 +144785,13 @@ entities:
       parent: 2
     - type: DeviceLinkSource
       linkedPorts:
-        28648:
-        - - Pressed
-          - Toggle
         28649:
         - - Pressed
           - Toggle
         28650:
+        - - Pressed
+          - Toggle
+        28648:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -150410,6 +150599,11 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -25.5,-32.5
+      parent: 2
+  - uid: 17284
+    components:
+    - type: Transform
+      pos: 58.5,-9.5
       parent: 2
   - uid: 17663
     components:
@@ -173448,6 +173642,13 @@ entities:
     - type: Transform
       pos: 10.5,-59.5
       parent: 2
+- proto: WarpPointAnomalyLab
+  entities:
+  - uid: 28745
+    components:
+    - type: Transform
+      pos: 52.5,-18.5
+      parent: 2
 - proto: WarpPointArrivals
   entities:
   - uid: 25073
@@ -173468,6 +173669,13 @@ entities:
     components:
     - type: Transform
       pos: -26.5,-46.5
+      parent: 2
+- proto: WarpPointBoxing
+  entities:
+  - uid: 28746
+    components:
+    - type: Transform
+      pos: 13.5,-46.5
       parent: 2
 - proto: WarpPointBridge
   entities:
@@ -173511,6 +173719,13 @@ entities:
     - type: Transform
       pos: 91.5,-32.5
       parent: 2
+- proto: WarpPointDorms
+  entities:
+  - uid: 28751
+    components:
+    - type: Transform
+      pos: 80.5,-50.5
+      parent: 2
 - proto: WarpPointEngineering
   entities:
   - uid: 25077
@@ -173520,11 +173735,10 @@ entities:
       parent: 2
 - proto: WarpPointEpistemics
   entities:
-  - uid: 25078
+  - uid: 28747
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 58.5,-22.5
+      pos: 55.5,-32.5
       parent: 2
 - proto: WarpPointEvac
   entities:
@@ -173562,6 +173776,13 @@ entities:
     - type: Transform
       pos: -19.5,-35.5
       parent: 2
+- proto: WarpPointLibrary
+  entities:
+  - uid: 28748
+    components:
+    - type: Transform
+      pos: 34.5,-32.5
+      parent: 2
 - proto: WarpPointLogistics
   entities:
   - uid: 25082
@@ -173575,6 +173796,18 @@ entities:
     components:
     - type: Transform
       pos: 69.5,0.5
+      parent: 2
+  - uid: 28749
+    components:
+    - type: Transform
+      pos: 71.5,0.5
+      parent: 2
+- proto: WarpPointMantis
+  entities:
+  - uid: 28663
+    components:
+    - type: Transform
+      pos: 58.5,-22.5
       parent: 2
 - proto: WarpPointMedical
   entities:
@@ -173598,6 +173831,13 @@ entities:
     - type: Transform
       pos: -28.5,-65.5
       parent: 2
+- proto: WarpPointReporter
+  entities:
+  - uid: 28750
+    components:
+    - type: Transform
+      pos: -10.5,0.5
+      parent: 2
 - proto: WarpPointRobotics
   entities:
   - uid: 25086
@@ -173620,6 +173860,13 @@ entities:
     - type: Transform
       pos: -33.5,3.5
       parent: 2
+- proto: WarpPointSecurityCheckpoint
+  entities:
+  - uid: 28752
+    components:
+    - type: Transform
+      pos: -67.5,-22.5
+      parent: 2
 - proto: WarpPointTEG
   entities:
   - uid: 28674
@@ -173633,6 +173880,13 @@ entities:
     components:
     - type: Transform
       pos: -8.5,-41.5
+      parent: 2
+- proto: WarpPointXenoarchaeologyLab
+  entities:
+  - uid: 28719
+    components:
+    - type: Transform
+      pos: 50.5,-56.5
       parent: 2
 - proto: WatcherAISpawner
   entities:
@@ -173828,7 +174082,7 @@ entities:
       parent: 2
     - type: DeviceNetwork
       deviceLists:
-      - 28663
+      - 28720
   - uid: 25110
     components:
     - type: Transform
@@ -173836,7 +174090,7 @@ entities:
       parent: 2
     - type: DeviceNetwork
       deviceLists:
-      - 28663
+      - 28710
     - type: AccessReader
       accessListsOriginal:
       - - StationAi
@@ -173848,7 +174102,7 @@ entities:
       parent: 2
     - type: DeviceNetwork
       deviceLists:
-      - 28663
+      - 28710
     - type: AccessReader
       accessListsOriginal:
       - - StationAi
@@ -173860,14 +174114,14 @@ entities:
       parent: 2
     - type: DeviceNetwork
       deviceLists:
-      - 28663
+      - 28710
     - type: AccessReader
       accessListsOriginal:
       - - StationAi
       - - ResearchDirector
 - proto: WeaponEnergyTurretAIControlPanel
   entities:
-  - uid: 28663
+  - uid: 28710
     components:
     - type: Transform
       pos: 77.5,-33.5
@@ -173875,8 +174129,16 @@ entities:
     - type: DeviceList
       devices:
       - 25110
-      - 25112
       - 25111
+      - 25112
+  - uid: 28720
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 62.5,-47.5
+      parent: 2
+    - type: DeviceList
+      devices:
       - 270
 - proto: WeaponEnergyTurretSecurity
   entities:
