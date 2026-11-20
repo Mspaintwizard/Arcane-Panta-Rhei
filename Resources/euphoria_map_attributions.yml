@@ -1,4 +1,4 @@
-﻿- files: ["amber.yml"]
+- files: ["amber.yml"]
   license: "CC-BY-NC-SA-4.0"
   copyright: "Created by Southbridge and Flipsie27."
   source: "https://github.com/space-wizards/space-station-14/pull/33441"
@@ -17,3 +17,8 @@
   license: "CC-BY-NC-SA-4.0"
   copyright: "Created by JaDiDo for Euphoria."
   source: "https://github.com/Euphoria-Station/Panta-Rhei/pull/1135"
+
+- files: ["mesa.yml, Locomotive_evac.yml, Hoodoo.yml, Hobgoblin.yml "]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Created by themageofmicrosoftpaints for Euphoria, with help from Dunrab for the code bits, and players like you, thankyou!"
+  source: "https://github.com/Euphoria-Station/Panta-Rhei/pull/925"
