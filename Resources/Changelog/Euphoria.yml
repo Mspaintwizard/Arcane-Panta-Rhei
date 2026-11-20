@@ -7218,3 +7218,15 @@ Entries:
         and open doors.
   id: 893
   time: '2026-11-15T07:31:59.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Tweak
+      message: Port of Try/Catch changes for ahelps
+  id: 894
+  time: '2026-11-19T10:22:48.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Add
+      message: menu for voresystem for customization
+  id: 895
+  time: '2026-11-20T09:38:07.0000000+00:00'

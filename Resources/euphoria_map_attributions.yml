@@ -1,0 +1,19 @@
+﻿- files: ["amber.yml"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Created by Southbridge and Flipsie27."
+  source: "https://github.com/space-wizards/space-station-14/pull/33441"
+
+- files: ["radstation.yml, emergency_neol.yml"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Created by BriggsIDP in SS13 and ported to SS14 by CRISOOOOO, Evac shuttle created by Fuinha7."
+  source: "https://github.com/rbertoche/space-station-14/commit/c223fef6cd7e07d16c2816aaf5f2760318ff16a3"
+
+- files: ["getaway.yml"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Created by Dunrab & Ryak for Floof/Euphoria."
+  source: "https://github.com/Euphoria-Station/Floof-Station-Legacy/pull/1514"
+
+- files: ["voyager.yml"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Created by JaDiDo for Euphoria."
+  source: "https://github.com/Euphoria-Station/Panta-Rhei/pull/1135"
