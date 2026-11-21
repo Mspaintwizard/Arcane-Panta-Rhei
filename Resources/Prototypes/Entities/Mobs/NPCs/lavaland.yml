@@ -145,6 +145,14 @@
   - type: BatteryAmmoProvider
     proto: WatcherBoltMagmawing
     fireCost: 50
+  # Euphoria change start - upgradeable crushers
+  - type: Butcherable
+    spawned:
+    - id: DiamondOre1
+      amount: 1
+    - id: MaterialMagmiteStone1
+      amount: 1
+  # Euphoria changes end
 
 - type: entity
   id: MobWatcherPride
